@@ -1,4 +1,4 @@
-import style from './Middlesegment2.module.css';
+import style from './MiddleSegment2.module.css';
 import itmimg from './assets/itmimg.png';
 import aimsmall from './assets/aimarketingsmall.png';
 import mt from './assets/mediatechnology.png';
