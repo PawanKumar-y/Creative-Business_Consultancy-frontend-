@@ -1,14 +1,14 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Navbar from './Navbar';
-import About from './About'; // example page
-import Landing from './LandingPage';   // renamed correctly
-import Services from './ServicePage'; // example page
-import Industries from './IndustriesPage'; 
-import Products from './ProductPage';
-import Contact from './ContactPage';
-import Socials from './ContactandTerms';
+import Navbar from './Navbar.jsx';
+import About from './About.jsx'; // example page
+import LandingPage from './Landingpage.jsx';   // renamed correctly
+import Services from './ServicePage.jsx'; // example page
+import Industries from './IndustriesPage.jsx'; 
+import Products from './ProductPage.jsx';
+import Contact from './ContactPage.jsx';
+import Socials from './ContactandTerms.jsx';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
 
       <div className="page-content">
         <Routes>
-          <Route path="/" element={<Landing />} />
+          <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/industries" element={<Industries />} />
