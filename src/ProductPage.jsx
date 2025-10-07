@@ -12,7 +12,7 @@ import va from './assets/VideoAnalytics.png'
 import dt from './assets/DigitalTransformation.png'
 import rfid from './assets/RFIDSolutions.png'
 import chat from './assets/Chatbot.png'
-import bcs from './assets/BlockChainSolutions.png'
+import bcs from './assets/BlockchainSolutions.png'
 import nih from './assets/NonInvasiveHealthCare.png'
 import performance from './assets/PerformanceMonitoring.png'
 

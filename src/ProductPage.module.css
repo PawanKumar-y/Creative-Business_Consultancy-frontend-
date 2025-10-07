@@ -221,8 +221,9 @@
 }
 .bctimg
 {
-    width:80%;
-    padding-left:10%;
+    width:100%;
+    padding-left:2%;
+    margin-bottom:1%;
 }
 .lastline
 {
