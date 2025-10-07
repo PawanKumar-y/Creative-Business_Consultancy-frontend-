@@ -1,0 +1,269 @@
+.outerdiv
+{
+    margin-top:15px;
+    padding:1%;
+    height:500px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgimage
+{
+    background-image: url(./assets/newBackgroundimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 2rem;
+    position: relative;
+}
+.textInBg
+{
+    color: #f5f3f5;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin-top: 4rem;
+    margin-left:4rem;
+}
+.blueText {
+    color: #4783f3;
+}
+
+.quote {
+    color: #ffffff;
+    font-style: italic;
+    margin-top: 4rem;
+    margin-left:4rem;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.author {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-top: 0.2rem;
+    margin-left:4rem;
+    opacity: 0.8;
+}
+.buttonSection
+{
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-left:4rem;
+}
+.button1
+{
+    background-color:rgb(71, 131, 243);
+    color:white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.button1:hover {
+    transform: translateY(-2px);
+}
+.button2
+{
+    background-color:rgb(255, 255, 255);
+    color:rgb(71, 131, 243); border: 1px solid #4783f3;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.button2:hover {
+    background-color: #d1dcf5;
+}
+.customerText {
+    position: absolute;
+    bottom: 2rem;
+    left: 55%;
+    transform: translateX(-50%);
+    color: #000;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    white-space: nowrap;
+    padding-top:1rem;
+}
+.companies{
+    font-size:1.6rem;
+    margin-top:4%;
+    margin-left:35%;
+    margin-bottom:4%;
+}
+
+.ourStory
+{
+    margin-top:1%;
+    margin-bottom:3%;
+    margin-left:1%;
+    margin-right:1%;
+    padding-left:15%;
+    padding-bottom:3%;
+    padding-top:4%;
+    display:flex;
+    flex-direction:row;
+    box-shadow: -8px 12px 24px 0 rgba(0,0,0,0.12), 8px 12px 24px 0 rgba(0,0,0,0.12); /* Left and right shadow */
+    border-radius: 12px;
+}
+.left
+{
+    font-size:1.1rem;
+}
+.right
+{
+    padding-left:20%;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height:1.4;
+}
+.statssection {
+  display: flex;
+  justify-content: center;
+  gap: 4rem; /* space between items */
+  padding-top:7%;
+}
+
+.stat {
+  text-align: center;
+}
+
+.statnumber {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2563eb; /* blue text */
+  margin: 0;
+}
+
+.statlabel {
+  color: #555; /* gray text */
+  font-size:1.1rem;
+}
+.Services
+{
+    background-color:#e2ebff;
+    margin-left:1%;
+    margin-right:1%;
+    padding-top:3%;
+    padding-bottom:3%;
+    border-radius:10px;
+}
+.ServiceSection{
+    display:flex;
+    padding-top:2%;
+    flex-direction:row;  
+}
+.serviceSubheading
+{
+    font-size:1.2rem;
+    color:gray;
+}
+.left1
+{
+    font-size:1.1rem;
+    text-align:center;
+    margin-left:8rem;
+}
+.right1
+{
+    margin-left:25%;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height:1.5;
+}
+.FourBox
+{
+    display:flex;
+    gap:0.6rem;
+    margin-left:4%;
+    margin-right:8%;
+    margin-top:5%;
+    margin-bottom:3%;
+}
+.fourimages
+{
+    border-radius:0.5rem;
+    width: 269px; /* Set to 269px */
+    height: 183px;
+}
+
+.explorebutton
+{
+    margin-left:44%;
+    background-color:rgb(71, 131, 243);
+    color:white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.explorebutton:hover {
+    transform: translateY(-2px);
+}
+/* Add these at the end of Middlesegment.module.css */
+
+/* Keyframes for fade and slide animations */
+@keyframes fadeInSlow {
+  from { opacity: 0; transform: translateY(30px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+@keyframes slideInLeftSlow {
+  from { opacity: 0; transform: translateX(-60px);}
+  to { opacity: 1; transform: translateX(0);}
+}
+
+@keyframes slideInRightSlow {
+  from { opacity: 0; transform: translateX(60px);}
+  to { opacity: 1; transform: translateX(0);}
+}
+
+/* Animation classes for slow appearance */
+.outerdiv {
+  opacity: 0;
+  animation: fadeInSlow 1.8s ease forwards;
+  animation-delay: 0.2s;
+}
+
+.companies {
+  opacity: 0;
+  animation: fadeInSlow 1.8s ease forwards;
+  animation-delay: 0.6s;
+}
+
+.ourStory {
+  opacity: 0;
+  animation: fadeInSlow 1.8s ease forwards;
+  animation-delay: 1s;
+}
+
+.left {
+  opacity: 0;
+  animation: slideInLeftSlow 1.6s ease forwards;
+  animation-delay: 1.3s;
+}
+
+.right {
+  opacity: 0;
+  animation: slideInRightSlow 1.6s ease forwards;
+  animation-delay: 1.5s;
+}
+
+.Services {
+  opacity: 0;
+  animation: fadeInSlow 1.8s ease forwards;
+  animation-delay: 1.8s;
+}

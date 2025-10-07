@@ -1,0 +1,130 @@
+.Toptext {
+    padding-top: 5rem;
+}
+
+.Product {
+    font-size: 1.5rem;
+    margin-left: 46%;
+}
+
+.offerings {
+    margin-left: 42%;
+    font-size: 1.6rem;
+    padding-top: 2%;
+}
+
+.TextContent {
+    text-align: center;
+    padding-top: 2%;
+    line-height: 1.5;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.blueText {
+    color: #4783f3;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 3% 10% 3% 10%; /* Top, Right, Bottom, Left */
+    max-width: 100%;
+}
+
+.boxes {
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
+    background-color: #fff; /* Added to match the white background in the image */
+    border: 1px solid #ddd; /* Optional: subtle border to match the image */
+}
+
+.boxes:hover {
+    transform: translateY(-5px);
+    color: #4783f3;
+}
+
+.boxes img {
+    max-width: 40px; /* Adjusted to match the smaller icons in the new image */
+    margin-bottom: 0.5rem;
+}
+
+.boxes h5 {
+    margin: 0;
+    font-size: 0.85rem; /* Adjusted for smaller text to fit the new image */
+    line-height: 1.2;
+}
+/* Add at the end of MiddleSegment2.module.css */
+
+/* Keyframes for ProductSection animation */
+@keyframes slideInLeftProduct {
+  from { opacity: 0; transform: translateX(-60px);}
+  to { opacity: 1; transform: translateX(0);}
+}
+
+@keyframes slideInRightProduct {
+  from { opacity: 0; transform: translateX(60px);}
+  to { opacity: 1; transform: translateX(0);}
+}
+
+@keyframes fadeInBox {
+  from { opacity: 0; transform: translateY(30px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+/* Animation classes */
+.Toptext {
+  opacity: 0;
+  animation: slideInLeftProduct 1.5s ease forwards;
+  animation-delay: 0.2s;
+}
+
+.TextContent {
+  opacity: 0;
+  animation: slideInRightProduct 1.5s ease forwards;
+  animation-delay: 0.5s;
+}
+
+/* Animate boxes line by line (row by row) */
+.gridContainer .boxes {
+  opacity: 0;
+  animation: fadeInBox 1.2s ease forwards;
+}
+
+/* First row */
+.gridContainer .boxes:nth-child(1),
+.gridContainer .boxes:nth-child(2),
+.gridContainer .boxes:nth-child(3) {
+  animation-delay: 0.8s;
+}
+/* Second row */
+.gridContainer .boxes:nth-child(4),
+.gridContainer .boxes:nth-child(5),
+.gridContainer .boxes:nth-child(6) {
+  animation-delay: 1.2s;
+}
+/* Third row */
+.gridContainer .boxes:nth-child(7),
+.gridContainer .boxes:nth-child(8),
+.gridContainer .boxes:nth-child(9) {
+  animation-delay: 1.6s;
+}
+
+.gridContainer .boxes:nth-child(10),
+.gridContainer .boxes:nth-child(11),
+.gridContainer .boxes:nth-child(12) {
+  animation-delay: 2.0s;
+}
+
+.gridContainer .boxes:nth-child(13),
+.gridContainer .boxes:nth-child(14),
+.gridContainer .boxes:nth-child(15) {
+  animation-delay: 2.4s;
+}

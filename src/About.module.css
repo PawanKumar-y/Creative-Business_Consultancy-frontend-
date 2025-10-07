@@ -1,0 +1,82 @@
+.bluebox
+{
+    margin-left:1%;
+    margin-right:1%;
+    background-color:#3E6FD9;
+    width:98%;
+    border-radius:1rem;
+}
+.heading
+{
+    font-size:2rem;
+    font-weight:700;
+    color:white;
+    font-family: 'Open Sans', Arial, sans-serif;
+    padding-left:1%;
+    padding-right:1%;
+    margin-left:24%;
+    padding-top:4%;
+}
+.content
+{
+    display:flex;
+    flex-direction:row;
+    gap:0.5rem;
+}
+.text1
+{
+    width: 40%; 
+    background-color: white;
+    border-radius:1rem;
+    margin: 2.5rem auto;
+    padding-left:2.5rem;
+    padding-right:2.5rem;
+}
+.text1 h5{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size:1.2rem;
+}
+.nextsection
+{
+   box-shadow: -8px 12px 24px 0 rgba(0,0,0,0.12), 8px 12px 24px 0 rgba(0,0,0,0.12); /* Left and right shadow */
+   padding-top:1.2rem;
+   padding-bottom:1.2rem;
+   margin-left:1%;
+   margin-right:1%;
+   margin-top:3%;
+   border-radius:1.2rem;
+}
+.portfoliossection{
+    font-size:1.6rem;
+    margin-top:2%;
+    margin-left:38%;
+    margin-bottom:4%;
+}
+.headtext
+{
+    font-size:1.2rem;
+    margin-left:10%;
+}
+.listofProfits{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 3% 8% 3% 10%; /* Top, Right, Bottom, Left */
+    max-width: 100%;
+}
+.boxes h5{
+    font-size:1.2rem;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color:#4982ff;
+}
+.boxes ul
+{
+    text-align:left;
+}
+.boxes {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

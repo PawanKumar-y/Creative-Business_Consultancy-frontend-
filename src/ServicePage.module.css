@@ -1,0 +1,83 @@
+.startpara
+{
+    display:flex;
+    flex-direction:row;
+    margin-left:1%;
+    margin-right:1%;
+}
+.Toptext
+{
+    flex:1;
+    padding-top:2rem;
+    font-weight:500;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.Product
+{
+    font-size:1.5rem;
+    margin-left:15%;
+}
+.TextContent
+{
+    flex:2;
+    text-align:center;
+    padding-top:2%;
+    padding-right:3%;
+    text-align:left;
+    line-height:1.5;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.blueText {
+    color: #4783f3;
+}
+.listofimg
+{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    padding-left:5%;
+    padding-right:5%;
+    margin-top:3%;
+}
+.imgstyles
+{
+    width:100%;
+    height:50%;
+    object-fit:cover;
+}
+.Card {
+  border: 2px solid aliceblue;
+  padding: 1rem;
+  margin: 1%;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.Card.blue {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.parastyles {
+  margin-bottom: 8px;
+  padding-left:3%;
+}
+
+.cardButton {
+  margin-top: 8px;
+  padding: 8px 16px;
+  margin-left:30%;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cardButton:hover {
+  background-color: #2563eb;
+}

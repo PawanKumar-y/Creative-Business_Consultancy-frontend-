@@ -1,0 +1,246 @@
+.startpara
+{
+    display:flex;
+    flex-direction:row;
+}
+.Toptext
+{
+    flex:1;
+    padding-top:3rem;
+    font-weight:500;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.Product
+{
+    font-size:1.5rem;
+    margin-left:15%;
+}
+.TextContent
+{
+    flex:2;
+    text-align:center;
+    padding-top:3%;
+    padding-right:3%;
+    text-align:left;
+    line-height:1.5;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.blueText {
+    color: #4783f3;
+}
+.blueTextitm {
+    color: #4783f3;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size:1.3rem;
+    margin-top:2%;
+    margin-bottom:4%;
+    padding-left:2%;
+}
+.textforitm
+{
+    line-height:1.4;
+    font-size:1.1rem;
+    padding-left:2%;
+}
+.itmwholesection
+{
+    display:flex;
+    gap:2rem;
+    flex:2;
+    padding-left:3%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.itmimgstyle
+{
+    padding-left:15%;
+    width:100%;
+    height:60%;
+    border-radius:5px;
+}
+.firstline
+{
+    display:flex;
+    gap:2rem;
+    margin-top:4%;
+    padding:2.5rem;
+    flex-wrap:wrap;
+}
+.aimarketing
+{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    flex:1;
+}
+.blueTextaim
+{
+    color: #4783f3;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size:1.3rem;
+    margin-top:2%;
+    margin-bottom:4%;
+    padding-left:2%;
+}
+.textforaim
+{
+    line-height:1.4;
+    font-size:1.1rem;
+    padding-left:2%;
+}
+.featurebox
+{
+    border:1px solid gray;
+    height:30px;
+    border-radius: 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+}
+.circle
+{
+    margin-left:5%;
+    color: #4783f3;
+    border:1px solid #4783f3;
+    border-radius:200%;
+    margin-right:3%;
+}
+.secondline
+{
+    display:flex;
+    gap:2rem;
+    padding:2.5rem;
+    flex-wrap:wrap;
+}
+.blueTextmt
+{
+    font-size:1.3rem;
+    color: #4783f3;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin-top:2%;
+    margin-bottom:4%;
+    padding-left:2%;
+}
+.mtmainimg{
+    margin-top:5%;
+    width:90%;
+}
+.blueTextar
+{
+    font-size:1.3rem;
+    color: #4783f3;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin-top:5%;
+    margin-bottom:4%;
+    padding-left:2%;   
+}
+.arvrimg
+{
+    margin-top:3%;
+    width:100%;
+}
+.oaimg
+{
+    margin-top:8%;
+    width:98%;
+}
+.blueTextva
+{
+    font-size:1.3rem;
+    color: #4783f3;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin-top:6%;
+    margin-bottom:4%;
+    padding-left:2%;
+}
+.vamainimg
+{
+    margin-top:10%;
+    width:97%;
+}
+.dtimg
+{
+    margin-top:11%;
+    width:97%;
+}
+.rfidimg
+{
+    margin-top:6%;
+    width:100%;
+}
+.chatstyle
+{
+    width:100%;
+    height:80%;
+    margin-top:8%;
+    margin-right:10%;
+    border-radius:5px;
+}
+.featureboxchat
+{
+    border:1px solid gray;
+    height:30px;
+    border-radius: 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+    width:50%;
+}
+.textchat
+{
+    width:100%;
+}
+.textforchat
+{
+    width:100%;
+    
+}
+.cbmwholesection
+{
+    display:flex;
+    gap:2rem;
+    flex:1.5;
+    padding-left:3%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.cbmonitoring
+{
+    flex:1;
+}
+.blockchain
+{
+    padding-left:2%;
+    padding-right:2%;
+    flex:1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.textforbc
+{
+    margin-left:2%;
+    margin-right:3%;
+    margin-bottom:5%;
+}
+.bctimg
+{
+    width:80%;
+    padding-left:10%;
+}
+.lastline
+{
+    display:flex;
+    width:63%;
+    margin-left:2%;
+    gap:5%;
+    margin-bottom:3%;
+}
+.nihimg
+{
+    margin-top:3%;
+    width:98%;
+}
+.performanceimg
+{
+    margin-top:3%;
+    width:96%;
+    padding-left:2%;
+    padding-top:3%;
+}
